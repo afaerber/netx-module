@@ -127,7 +127,7 @@ static int netx_probe(struct spi_device *spi)
 	struct spi_transfer xfer = {
 		.tx_buf = buf,
 		.rx_buf = rxbuf,
-		.len = 4,
+		.len = 3,
 	};
 	const struct netx_ops *ops;
 	u32 val;
